@@ -1,0 +1,30 @@
+.navbar-custom {
+  --padding-top: 12px;
+  --padding-bottom: 6px;
+}
+.menu-custom {
+  --background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 250, 240, 0.9) 50.15%,
+    #ffffff 100%
+  );
+}
+.degrade-amarillo {
+  background: linear-gradient(90deg, #fedf5f 0%, #fcbc31 100%);
+}
+.btn-custom-yellow {
+  border: 0.7px solid #fcbc31;
+  border-radius: 5px;
+  color: #fcbc31;
+  font-weight: 600;
+  padding: 8px 20px;
+  display: block;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+* {
+  --font-family: "Inter", sans-serif !important;
+}

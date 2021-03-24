@@ -1,0 +1,3 @@
+[submodule "src/services"]
+	path = src/services
+	url = https://gitlab.com/yampi-team/yampi-core.git

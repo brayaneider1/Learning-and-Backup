@@ -1,0 +1,14 @@
+.--bullet-background-active{
+    background:#f2be50 !important;
+    margin: 5px 0;
+}
+.--bullet-background{
+    background:#fae6bb !important;
+
+}
+.slider-custom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

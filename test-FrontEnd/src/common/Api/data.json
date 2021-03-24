@@ -1,0 +1,55 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Visita diagnostica servicios de Electricidad",
+      "price": "$35.000",
+      "address": "Kr 72 #48-12",
+      "paymetType": "Tarjeta de crédito",
+      "time": "En menos de 90 segundos",
+      "image": "https://cdn.pixabay.com/photo/2017/10/05/21/10/tool-2820950__340.jpg",
+      "technical": {
+        "id": 1,
+        "name": "Domingo Gómez",
+        "function": "Tecnico asignado",
+        "imageProfile": "https://cdn.pixabay.com/photo/2018/03/31/21/18/african-american-3279360_960_720.jpg"
+      },
+      "requestAditional": [
+        {
+          "id": 1,
+          "name": "Cambio de interruptores",
+          "price": "$64.200",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Cambio de toma de corriente",
+          "price": "$34.000",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "councils": [
+    {
+      "id": 1,
+      "council": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "id": 2,
+      "council": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+      "id": 3,
+      "council": "when an unknown printer took a galley of type and scrambled it to make a type"
+    },
+    {
+      "id": 4,
+      "council": " It has survived not only five centuries,"
+    },
+    {
+      "id": 5,
+      "council": "Evita mal entendidos,cuida tus pertencias y supervisa al técnico"
+    }
+  ]
+}

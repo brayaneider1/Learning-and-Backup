@@ -1,0 +1,8 @@
+@keyframes up {
+	from {
+		bottom: -160vh;
+	}
+	to {
+		bottom: 0;
+	}
+}

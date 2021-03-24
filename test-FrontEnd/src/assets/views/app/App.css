@@ -1,0 +1,56 @@
+.animation-up {
+	animation: up 1.3s ease-in-out 0s;
+}
+
+.modal__close {
+	top: -0.7em;
+	right: -0.7em;
+}
+
+.modal__container {
+	max-width: 20rem;
+}
+
+ion-content {
+	--ion-background-color: transparent;
+}
+
+.border-item {
+	border: 3px solid;
+	background: white;
+}
+
+.border-item-gray {
+	border: 3px solid #ededed;
+	background: white;
+}
+
+.custom-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.top-50 {
+	width: 100%;
+	border-bottom: 3px solid #7de58d;
+}
+
+.top-50-gray {
+	width: 100%;
+	border-bottom: 3px solid #ededed;
+}
+
+.divider{
+	border-bottom: 1px solid #e2e8f0;
+	margin: 0 3%;
+}
+.divider-col{
+	border-bottom: 1px solid #e2e8f0;
+	margin: 2px 0;
+	
+}
+
+.swiper-pagination-bullet{
+	background:#f2be50;
+}

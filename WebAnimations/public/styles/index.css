@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pelota {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* transition-property: width, height ;
+      transition-duration: 2s;
+      transition-delay: 250ms;
+      transition-timing-function: ease; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 1s;
+}
+
+/* .pelota:hover{
+ 
+} */
+.canasta {
+  border: 1px solid steelblue;
+  position: relative;
+  height: 200px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transform: rotar|sesgar|posicion,tamaño; */
+  transform: rotate(5deg) skew(10deg) translate(100px) scale(1.5);
+}
+
+.pelota.a {
+  background-color: teal;
+  left: 0;
+}
+
+.pelota.b {
+  background-color: thistle;
+  right: 0;
+}
+.canasta:hover .pelota.a {
+  left: calc(50% - 100px);
+}
+.canasta:hover .pelota.b {
+  right: calc(50% - 100px);
+}
